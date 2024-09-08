@@ -1,0 +1,158 @@
+/*контейнер*/
+
+#frame2 {
+    /* Frame 2 */
+    position: absolute;
+    width: 1130.5px;
+    height: 70.66px;
+    left: 0px;
+    top: 0px;
+}
+
+#header_section {
+    /* Header Section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.57015px 93.4236px;
+    gap: 7.85px;
+    position: absolute;
+    width: 1130.5px;
+    height: 70.66px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.14029px 12.5612px rgba(0, 0, 0, 0.04);
+}
+
+#header_element {
+    /* Header Elements Row */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 943.66px;
+    height: 50.05px;
+}
+
+#header_logo {
+    /* Header Logo */
+    margin: 0 auto;
+    width: 76.15px;
+    height: 50.05px;
+}
+
+#header_menu_options_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_links {
+    display: flex;
+    gap: 20px; /* Пробелы между ссылками */
+    flex-grow: 1; /* Чтобы ссылки растягивались на доступное пространство */
+}
+
+
+.links {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    color: #495367;
+    background: none; /* Убираем фон */
+    border: none; /* Убираем границы */
+    cursor: pointer; /* Курсор в виде указателя */
+    padding: 0; /* Убираем отступы */
+}
+
+#home {
+    color: #8A53FF; /* Цвет выделения для "Home" */
+}
+
+#travel {
+    /* Travel */
+    position: absolute;
+    width: 76.15px;
+    height: 28.26px;
+    left: 0px;
+    top: 21.79px;
+    font-family: 'Changa One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.6925px;
+    line-height: 28px;
+    text-align: center;
+    color: #8A53FF;
+}
+
+#talking {
+    /* Talking */
+    position: absolute;
+    width: 42.39px;
+    height: 28.26px;
+    left: 3.14px;
+    top: 0px;
+    font-family: 'Pacifico', cursive; 
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #3E3E3E;
+}
+
+#header_icons {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Пробел между иконками */
+}
+
+.icon_button {
+    background: none; /* Убираем стандартный фон кнопок */
+    border: none; /* Убираем стандартные границы кнопок */
+    cursor: pointer; /* Изменяем курсор на указатель */
+}
+
+#search_icon, #profile_icon {
+    width: 20px; /* Ширина иконок */
+    height: 20px; /* Высота иконок */
+}
+
+/* серая вертикальная линия*/
+#head_separation {
+    width: 1px;
+    height: 20px;
+    background-color: #EEEEEE;
+    margin: 0 20px; /* Отступы между линией и контейнерами */
+}
+
+body {
+    position: absolute;
+    width: 1130.54px;
+    height: 1011.1px;
+    left: 61px;
+    top: 55px;
+    border-radius: 15.7015px;
+}
+
+.button {
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    color: white;
+}
+
+.button1 {
+    font-size: 45px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    float: right;
+}
