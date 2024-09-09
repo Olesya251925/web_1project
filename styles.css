@@ -1,13 +1,14 @@
 /* Стили для внешнего контейнера */
 .outer-container {
-    width: 1440px;
+    width: 1440px; /* Фиксированная ширина 1440px */
     height: 90px;
-    padding: 2px 119px;
+    padding: 2px 0px; /* Уменьшили боковые отступы */
     gap: 10px;
     background: #FFFFFF;
     box-shadow: 0px 4px 16px 0px #0000000A;
-    display: flex; /* Чтобы задать стиль выравнивания */
+    display: flex;
     align-items: center; /* Центрирование содержимого по вертикали */
+    justify-content: center; /* Центрирование содержимого по горизонтали */
 }
 
 /* Стили для внутреннего контейнера */
@@ -138,8 +139,6 @@
     opacity: 1; /* Сделаем линию видимой */
 }
 
-
-
 /* Стили для иконки поиска */
 .search-button {
     width: 20px;
@@ -152,6 +151,7 @@
     gap: 0px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
+    margin-right: 10px;
 }
 
 /* Стили для иконки аккаунта */
@@ -162,4 +162,136 @@
     background-size: cover; /* Изображение профиля */
     order: none; /* Убираем рамки */
     opacity: 0px;
+}
+
+/* Стили для второго контейнера */
+.second-container {
+    width: 1440px;
+    height: 580px;
+    gap: 10px;
+    background: linear-gradient(90deg, #FFFFFF -0.92%, rgba(255, 255, 255, 0) 75.6%);
+    position: relative; /* Для размещения фона */
+}
+
+/* Стили для фона с изображением */
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('icons/rockAndSea.png');
+    background-size: cover; /* Масштабирование изображения по контейнеру */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat;
+}
+
+
+/* Стили для нового фиксированного контейнера */
+.fixed-container {
+    width: 515px; /* ширина  - должна быть 765, но тогда не подходит под фигму */
+    height: 425px; /* высота -должна быть 580 */
+    padding: 40px 120px 40px 140px;
+    gap: 34px;
+    position: absolute; /* Чтобы разместить контейнер поверх фона */
+    opacity: 1; /* Сделаем контейнер видимым */
+    top: 70px; /* Опускаем вниз */
+}
+
+
+/* Стили для внутреннего контейнера */
+.inner-fixed-container {
+    width: 505px;
+    height: auto; /* Убираем фиксированную высоту для адаптивности */
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    opacity: 1; /* Сделаем контейнер видимым */
+}
+
+/* Стили для первого текстового контейнера */
+.text-section {
+    width: 505px;
+    height: 168px;
+    gap: 0;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+/* Основной текст */
+.main-text {
+    font-family: 'Changa One'; 
+    font-size: 75px; /* размер шрифта */
+    font-weight: 900; /* Жирный шрифт */
+    line-height: 84px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin: 0;
+    color: #8A53FF; /* Фиолетовый цвет */
+}
+
+/* Выделенный текст */
+.highlight {
+    font-size: inherit; /* Наследует размер шрифта от родителя */
+    font-weight: inherit; /* Наследует жирность шрифта от родителя */
+    color: #000000; /* Черный цвет */
+}
+
+/* Стили для второго текстового контейнера */
+.secondary-text-section {
+    width: 505px;
+    height: 72px;
+    gap: 0;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+/* Дополнительный текст */
+.secondary-text {
+    font-size: 22px; /* размер шрифта */
+    font-weight: 400; /*  шрифт */
+    line-height: 36px;
+    text-align: left;
+    color: #434343; /* Темный цвет текста */
+    margin: 0;
+    font-family: 'Roboto', sans-serif; 
+}
+
+/* Выделенный текст */
+.highlight {
+    font-size: inherit; /* Наследует размер шрифта от родителя */
+    font-weight: inherit; /* Наследует жирность шрифта от родителя */
+    color: #000000; /* Черный цвет */
+}
+
+/* Стили для второго текстового контейнера */
+.secondary-text-section {
+    width: 505px;
+    height: 72px;
+    gap: 0;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+/* Дополнительный текст */
+.secondary-text {
+    font-size: 22px; /* размер шрифта */
+    font-weight: 400; /* Нормальный вес шрифта */
+    line-height: 36px;
+    text-align: left;
+    color: #434343; /* Темный цвет текста */
+    margin: 0;
+    font-family: 'Roboto'; 
+}
+
+/* Дополнительный текст */
+.secondary-text {
+    width: 505px;
+    height: 72px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;
+    margin: 0;
+    font-family: Roboto;
 }
