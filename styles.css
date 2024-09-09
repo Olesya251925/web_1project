@@ -1,158 +1,165 @@
-/*контейнер*/
-
-#frame2 {
-    /* Frame 2 */
-    position: absolute;
-    width: 1130.5px;
-    height: 70.66px;
-    left: 0px;
-    top: 0px;
-}
-
-#header_section {
-    /* Header Section */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.57015px 93.4236px;
-    gap: 7.85px;
-    position: absolute;
-    width: 1130.5px;
-    height: 70.66px;
-    left: 0px;
-    top: 0px;
+/* Стили для внешнего контейнера */
+.outer-container {
+    width: 1440px;
+    height: 90px;
+    padding: 2px 119px;
+    gap: 10px;
     background: #FFFFFF;
-    box-shadow: 0px 3.14029px 12.5612px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 4px 16px 0px #0000000A;
+    display: flex; /* Чтобы задать стиль выравнивания */
+    align-items: center; /* Центрирование содержимого по вертикали */
 }
 
-#header_element {
-    /* Header Elements Row */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px;
-    width: 943.66px;
-    height: 50.05px;
-}
-
-#header_logo {
-    /* Header Logo */
-    margin: 0 auto;
-    width: 76.15px;
-    height: 50.05px;
-}
-
-#header_menu_options_row {
+/* Стили для внутреннего контейнера */
+.inner-container {
+    width: 1202px;
+    height: 64px;
+    gap: 0;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; /* Центрирование содержимого по вертикали */
 }
 
-#header_links {
+/* Стили для нового контейнера внутри внутреннего контейнера */
+.text-container {
+    width: 100px;
+    height: 64px;
     display: flex;
-    gap: 20px; /* Пробелы между ссылками */
-    flex-grow: 1; /* Чтобы ссылки растягивались на доступное пространство */
+    flex-direction: column; /* Чтобы слова располагались по вертикали */
+    position: relative; /* Для абсолютного позиционирования слов */
 }
 
+/* Контейнер для кнопок и вертикальной линии */
+.button-wrapper-container {
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
 
-.links {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
+/* Стили для текста */
+.text-item {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF; /* Белый текст для лучшей видимости на фоне */
+    font-size: 14px; /* Устанавливаем размер шрифта, если нужно */
+}
+
+/* Стили для слова "Talking" */
+.talking {
+    width: 62.6px;
+    height: 25.65px;
+    color: #000000; /* Черный цвет текста */
+    top: 5.41px;
+    left: 0.82px;
+    background: none; /* Убираем фон */
+    font-family: 'Pacifico', cursive;  /* Курсив */
+    font-style: italic;
+    font-weight: 1000; /* толщина */
+    font-size: 18px;
+}
+
+/* Стили для слова "Travel" */
+.travel {
+    width: 95.93px;
+    height: 23.12px;
+    color: #8A53FF; /* Фиолетовый цвет текста */
+    top: 35.27px;
+    left: 3.46px;
+    background: none; /* Убираем фон */
+    font-size: 32px;
+}
+
+/* Стили для кнопок контейнера */
+.button-container {
+    width: 457px;
+    height: 24px;
+    gap: 18px;
+    opacity: 1; /* Сделаем контейнер видимым */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Распределяет кнопки по горизонтали */
+}
+
+/* Стили для обертки кнопок */
+.button-wrapper {
+    width: 359px;
+    height: 19px;
+    gap: 0px;
+    opacity: 1; /* Сделаем обертку видимой */
+    display: flex;
+    justify-content: space-between; /* Распределяет кнопки по горизонтали */
+}
+
+/* Общие стили для кнопок */
+.button {
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
     font-size: 16px;
+    font-weight: 400;
     line-height: 18.75px;
     text-align: center;
-    color: #495367;
-    background: none; /* Убираем фон */
-    border: none; /* Убираем границы */
-    cursor: pointer; /* Курсор в виде указателя */
-    padding: 0; /* Убираем отступы */
+    background: transparent; /* Убираем фон */
+    opacity: 1; /* Сделаем кнопки видимыми */
 }
 
-#home {
-    color: #8A53FF; /* Цвет выделения для "Home" */
+/* Стили для кнопки "Home" */
+.home {
+    width: 44px;
+    color: #8A53FF; /* Цвет текста */
 }
 
-#travel {
-    /* Travel */
-    position: absolute;
-    width: 76.15px;
-    height: 28.26px;
-    left: 0px;
-    top: 21.79px;
-    font-family: 'Changa One';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26.6925px;
-    line-height: 28px;
-    text-align: center;
-    color: #8A53FF;
+/* Стили для кнопки "Story" */
+.story {
+    width: 37px;
+    color: #495367; /* Цвет текста */
 }
 
-#talking {
-    /* Talking */
-    position: absolute;
-    width: 42.39px;
-    height: 28.26px;
-    left: 3.14px;
-    top: 0px;
-    font-family: 'Pacifico', cursive; 
-    font-style: italic;
-    font-weight: 1000;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
-    color: #3E3E3E;
+/* Стили для кнопки "Gallery" */
+.gallery {
+    width: 50px;
+    color: #495367; /* Цвет текста */
 }
 
-#header_icons {
-    display: flex;
-    align-items: center;
-    gap: 10px; /* Пробел между иконками */
+/* Стили для кнопки "Contact Us" */
+.contact-us {
+    width: 86.71px;
+    color: #495367; /* Цвет текста */
 }
 
-.icon_button {
-    background: none; /* Убираем стандартный фон кнопок */
-    border: none; /* Убираем стандартные границы кнопок */
-    cursor: pointer; /* Изменяем курсор на указатель */
+/* Стили для вертикальной линии */
+.vertical-line {
+    width: 23.6px;
+    height: 24px; /* Высота соответствует высоте кнопок-контейнера */
+    border-left: 1px solid #EEEEEE; /* Вертикальная линия */
+    opacity: 1; /* Сделаем линию видимой */
 }
 
-#search_icon, #profile_icon {
-    width: 20px; /* Ширина иконок */
-    height: 20px; /* Высота иконок */
-}
 
-/* серая вертикальная линия*/
-#head_separation {
-    width: 1px;
+
+/* Стили для иконки поиска */
+.search-button {
+    width: 20px;
     height: 20px;
-    background-color: #EEEEEE;
-    margin: 0 20px; /* Отступы между линией и контейнерами */
+    background-image: url('icons/search.png');
+    background-size: cover; /* Показываем только изображение, без рамок */
+    border: none; /* Убираем границы */
+    top: 2px;
+    left: 395px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
 }
 
-body {
-    position: absolute;
-    width: 1130.54px;
-    height: 1011.1px;
-    left: 61px;
-    top: 55px;
-    border-radius: 15.7015px;
-}
-
-.button {
-    transition-duration: 0.4s;
-}
-
-.button:hover {
-    color: white;
-}
-
-.button1 {
-    font-size: 45px;
-    padding: 5px;
-    margin: 10px;
-    border-radius: 10px;
-    float: right;
+/* Стили для иконки аккаунта */
+.account-button {
+    width: 24px;
+    height: 24px;
+    background-image: url('icons/account.png');
+    background-size: cover; /* Изображение профиля */
+    order: none; /* Убираем рамки */
+    opacity: 0px;
 }
