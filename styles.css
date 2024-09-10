@@ -1,6 +1,16 @@
+/* Стили для первого контейнера, который будет содержать все остальные */
+.main-container {
+    width: Fixed (1,440px)px;
+    height: 3572.29px;
+    top: -430px;
+    left: -1008px;
+    gap: 0px;
+    opacity: 0px;
+}
+
 /* Стили для внешнего контейнера */
 .outer-container {
-    width: 1440px; /* Фиксированная ширина 1440px */
+    width: 1440px; 
     height: 90px;
     padding: 2px 0px; /* Уменьшили боковые отступы */
     gap: 10px;
@@ -53,8 +63,8 @@
     color: #000000; /* Черный цвет текста */
     top: 5.41px;
     left: 0.82px;
-    background: none; /* Убираем фон */
-    font-family: 'Pacifico', cursive;  /* Курсив */
+    background: none; 
+    font-family: 'Pacifico', cursive; 
     font-style: italic;
     font-weight: 1000; /* толщина */
     font-size: 18px;
@@ -64,11 +74,14 @@
 .travel {
     width: 95.93px;
     height: 23.12px;
+    font-family: 'Arial';
     color: #8A53FF; /* Фиолетовый цвет текста */
     top: 35.27px;
     left: 3.46px;
-    background: none; /* Убираем фон */
+    background: none; 
     font-size: 32px;
+
+    font-weight: 900; /* жирность */
 }
 
 /* Стили для кнопок контейнера */
@@ -110,25 +123,25 @@
 /* Стили для кнопки "Home" */
 .home {
     width: 44px;
-    color: #8A53FF; /* Цвет текста */
+    color: #8A53FF; 
 }
 
 /* Стили для кнопки "Story" */
 .story {
     width: 37px;
-    color: #495367; /* Цвет текста */
+    color: #495367; 
 }
 
 /* Стили для кнопки "Gallery" */
 .gallery {
     width: 50px;
-    color: #495367; /* Цвет текста */
+    color: #495367; 
 }
 
 /* Стили для кнопки "Contact Us" */
 .contact-us {
     width: 86.71px;
-    color: #495367; /* Цвет текста */
+    color: #495367; 
 }
 
 /* Стили для вертикальной линии */
@@ -164,13 +177,15 @@
     opacity: 0px;
 }
 
-/* Стили для второго контейнера */
+/* Стили для второго контейнера - главный */
 .second-container {
     width: 1440px;
     height: 580px;
-    gap: 10px;
+    gap: 0px;
     background: linear-gradient(90deg, #FFFFFF -0.92%, rgba(255, 255, 255, 0) 75.6%);
     position: relative; /* Для размещения фона */
+    opacity: 0px;
+   
 }
 
 /* Стили для фона с изображением */
@@ -183,115 +198,170 @@
     background-repeat: no-repeat;
 }
 
-
 /* Стили для нового фиксированного контейнера */
 .fixed-container {
-    width: 515px; /* ширина  - должна быть 765, но тогда не подходит под фигму */
-    height: 425px; /* высота -должна быть 580 */
+    width: 765px; /* ширина  - должна быть 765 */
+    height: 500px; /* высота - должна быть 580 */
     padding: 40px 120px 40px 140px;
     gap: 34px;
     position: absolute; /* Чтобы разместить контейнер поверх фона */
-    opacity: 1; /* Сделаем контейнер видимым */
-    top: 70px; /* Опускаем вниз */
+    opacity: 0px;
+    top: 0; /* Совпадение с верхом родителя */
+    left: 0; /* Совпадение с левым краем родителя */
+
 }
 
-
-/* Стили для внутреннего контейнера */
+/* Стили для внутреннего контейнера - текст на фото */
 .inner-fixed-container {
     width: 505px;
-    height: auto; /* Убираем фиксированную высоту для адаптивности */
+    height: 252px; 
     gap: 12px;
-    display: flex;
-    flex-direction: column;
-    opacity: 1; /* Сделаем контейнер видимым */
+    opacity: 0px;
 }
 
 /* Стили для первого текстового контейнера */
 .text-section {
     width: 505px;
-    height: 168px;
-    gap: 0;
+    height: 252px;
+    gap: 12px;
     display: flex;
-    align-items: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по вертикали */   
+    opacity: 0px;
 }
 
 /* Основной текст */
 .main-text {
-    font-family: 'Changa One'; 
-    font-size: 75px; /* размер шрифта */
-    font-weight: 900; /* Жирный шрифт */
+    font-family: Changa One;
+    font-size: 73px;
+    font-weight: 400;
     line-height: 84px;
     letter-spacing: -0.01em;
     text-align: left;
-    margin: 0;
-    color: #8A53FF; /* Фиолетовый цвет */
-}
-
-/* Выделенный текст */
-.highlight {
-    font-size: inherit; /* Наследует размер шрифта от родителя */
-    font-weight: inherit; /* Наследует жирность шрифта от родителя */
-    color: #000000; /* Черный цвет */
+    color: #8A53FF; 
 }
 
 /* Стили для второго текстового контейнера */
 .secondary-text-section {
     width: 505px;
     height: 72px;
-    gap: 0;
-    display: flex;
-    align-items: center; /* Центрирование по вертикали */
+    gap: 0px;
+    opacity: 0px;
 }
 
-/* Дополнительный текст */
-.secondary-text {
-    font-size: 22px; /* размер шрифта */
-    font-weight: 400; /*  шрифт */
-    line-height: 36px;
-    text-align: left;
-    color: #434343; /* Темный цвет текста */
-    margin: 0;
-    font-family: 'Roboto', sans-serif; 
-}
-
-/* Выделенный текст */
-.highlight {
-    font-size: inherit; /* Наследует размер шрифта от родителя */
-    font-weight: inherit; /* Наследует жирность шрифта от родителя */
-    color: #000000; /* Черный цвет */
-}
-
-/* Стили для второго текстового контейнера */
-.secondary-text-section {
-    width: 505px;
-    height: 72px;
-    gap: 0;
-    display: flex;
-    align-items: center; /* Центрирование по вертикали */
-}
-
-/* Дополнительный текст */
-.secondary-text {
-    font-size: 22px; /* размер шрифта */
-    font-weight: 400; /* Нормальный вес шрифта */
-    line-height: 36px;
-    text-align: left;
-    color: #434343; /* Темный цвет текста */
-    margin: 0;
-    font-family: 'Roboto'; 
-}
-
-/* Дополнительный текст */
+/* Дополнительный текст  - Share your... */
 .secondary-text {
     width: 505px;
     height: 72px;
     gap: 0px;
     opacity: 0px;
+    font-family: Roboto;
     font-size: 22px;
     font-weight: 400;
     line-height: 36px;
     text-align: left;
     color: #434343;
-    margin: 0;
+}
+
+/* Выделенный текст */
+.highlight {
+    font-size: inherit; /* Наследует размер шрифта от родителя */
+    font-weight: inherit; /* Наследует жирность шрифта от родителя */
+    color: #000000; 
+}
+
+/* Стили для второго текстового контейнера */
+.secondary-text-section {
+    width: 505px;
+    height: 72px;
+    gap: 0;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+/* Общий контейнер - где кнопки и текст  */
+.third-container {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 359.8px;
+    height: 46px;
+    opacity: 0px; /* Становится видимым */
+    margin-top: 40px; /* Отступ вниз */
+}
+
+/* Второй контейнер с кнопкой */
+.story-container {
+    width: 165.17px;
+    height: 46px;
+    background: #8A53FF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 1; /* Становится видимым */
+    border-radius: 8px; /* Закругляем углы */
+}
+
+.story-button {
+    width: 146.12px;
+    height: 19px;
     font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #FFFFFF; 
+    background: none;
+    border: none;
+}
+
+/* Третий контейнер с кнопкой и текстом  - play/watch */
+.action-container {
+    display: flex;
+    gap: 0;
+    width: 170.63px;
+    height: 36px;
+    padding: 0;
+    opacity: 1; /* Становится видимым */
+}
+
+/* Контейнер для кнопки с изображением */
+.image-button {
+    width: 36px;
+    height: 36px;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+    
+    margin-right: 10px; /* Задаем отступ справа */
+}
+
+/* Кнопка с изображением  - play */
+.image-button img {
+    width: 36px;
+    height: 36px;
+}
+
+/* Контейнер с текстом Watch highlights */
+.text1-container {
+    width: 170.63px;
+    height: 36px;
+    padding: 0px;
+    gap: 0px;
+    opacity: 0px;
+
+    /* Для центрирования содержимого по горизонтали и вертикали */
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+    justify-content: center; /* Центрирование по горизонтали */
+}
+
+.watch-text {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343;  
+     /* Предотвращаем перенос текста на новую строку */
+     white-space: nowrap;
 }

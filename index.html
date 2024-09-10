@@ -7,55 +7,78 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Внешний контейнер для всей секции -->
-    <div class="outer-container">
-        <!-- Внутренний контейнер для размещения элементов внутри внешнего контейнера -->
-        <div class="inner-container">
-            <!-- Контейнер для текста -->
-            <div class="text-container">
-                <!-- Текстовое слово "Talking" -->
-                <div class="text-item talking">Talking</div>
-                <!-- Текстовое слово "Travel" -->
-                <div class="text-item travel">Travel</div>
-            </div>
-            <!-- Контейнер для кнопок и вертикальной линии -->
-            <div class="button-wrapper-container">
-                <!-- Контейнер для всех кнопок -->
-                <div class="button-wrapper">
-                    <!-- Кнопка "Home" -->
-                    <div class="button home">Home</div>
-                    <!-- Кнопка "Story" -->
-                    <div class="button story">Story</div>
-                    <!-- Кнопка "Gallery" -->
-                    <div class="button gallery">Gallery</div>
-                    <!-- Кнопка "Contact Us" -->
-                    <div class="button contact-us">Contact Us</div>
+    <!-- Самый внешний контейнер, который содержит все остальные элементы -->
+    <div class="main-container">
+        <!-- Внешний контейнер для всей секции -->
+        <div class="outer-container">
+            <!-- Внутренний контейнер для размещения элементов внутри внешнего контейнера -->
+            <div class="inner-container">
+                <!-- Контейнер для текста -->
+                <div class="text-container">
+                    <!-- Текстовое слово "Talking" -->
+                    <div class="text-item talking">Talking</div>
+                    <!-- Текстовое слово "Travel" -->
+                    <div class="text-item travel">Travel</div>
                 </div>
-                <!-- Вертикальная линия после кнопок -->
-                <div class="vertical-line"></div>
-                <!-- Контейнер для иконок -->
-                <!-- Кнопка с иконкой поиска -->
-                <div class="icon-button search-button"></div>
-                <!-- Кнопка с иконкой аккаунта -->
-                <div class="icon-button account-button"></div>
+                <!-- Контейнер для кнопок и вертикальной линии -->
+                <div class="button-wrapper-container">
+                    <!-- Контейнер для всех кнопок -->
+                    <div class="button-wrapper">
+                        <!-- Кнопка "Home" -->
+                        <div class="button home">Home</div>
+                        <!-- Кнопка "Story" -->
+                        <div class="button story">Story</div>
+                        <!-- Кнопка "Gallery" -->
+                        <div class="button gallery">Gallery</div>
+                        <!-- Кнопка "Contact Us" -->
+                        <div class="button contact-us">Contact Us</div>
+                    </div>
+                    <!-- Вертикальная линия после кнопок -->
+                    <div class="vertical-line"></div>
+                    <!-- Контейнер для иконок -->
+                    <!-- Кнопка с иконкой поиска -->
+                    <div class="icon-button search-button"></div>
+                    <!-- Кнопка с иконкой аккаунта -->
+                    <div class="icon-button account-button"></div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Контейнер под внешним контейнером -->
-    <div class="second-container">
-        <!-- Фон фотографии -->
-        <div class="background-image"></div>
-        <!-- Новый контейнер в пределах второго контейнера -->
-        <div class="fixed-container">
-            <!-- Внутренний контейнер -->
-            <div class="inner-fixed-container">
-                <!-- Первый контейнер с текстом -->
-                <div class="text-section">
-                    <p class="main-text">Let’s talk <span class="highlight">about your next trip!</span></p>
-                </div>
-                <!-- Второй контейнер с дополнительным текстом -->
-                <div class="secondary-text-section">
-                    <p class="secondary-text">Share your favorite travel destination and we will feature it in our next blog!</p>
+        <!-- Контейнер под внешним контейнером -->
+        <div class="second-container">
+            <!-- Фон фотографии -->
+            <div class="background-image"></div>
+            <!-- Новый контейнер в пределах второго контейнера -->
+            <div class="fixed-container">
+                <!-- Внутренний контейнер -->
+                <div class="inner-fixed-container">
+                    <!-- Первый контейнер с текстом -->
+                    <div class="text-section">
+                        <p class="main-text">Let’s talk <span class="highlight">about your next trip!</span></p>
+                    </div>
+                    <!-- Второй контейнер с дополнительным текстом -->
+                    <div class="secondary-text-section">
+                        <p class="secondary-text">Share your favorite travel destination and we will feature it in our next blog!</p>
+                    </div>
+
+                    <!-- Общий контейнер -->
+                    <div class="third-container">
+                        <!-- Второй контейнер с кнопкой Share your story -->
+                        <div class="story-container">
+                            <button class="story-button">Share your story</button>
+                        </div>
+
+                        <!-- Контейнер для двух элементов: кнопка с изображением и текст Watch highlights -->
+                        <div class="action-container">
+                            <!-- Кнопка с изображением start.png -->
+                            <div class="image-button">
+                                <img src="icons/start.png" alt="Start">
+                            </div>
+                            <!-- Контейнер с текстом Watch highlights -->
+                            <div class="text1-container">
+                                <p class="watch-text">Watch highlights</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
