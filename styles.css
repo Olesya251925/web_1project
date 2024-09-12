@@ -422,3 +422,134 @@ color: #8A53FF;
     text-align: left;
     color: #434343;
 }
+
+.second_block {
+    width: 1160px;
+    height: 552px;
+    padding: 107px 140px 107px 140px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;  
+    display: flex; /* Flexbox для горизонтального выравнивания */
+}
+
+/* Стили для блока с фоном */
+.sec2_blok {
+    width: 540px;
+    height: 338px;
+    padding: 0px;
+    gap: 10px;
+    opacity: 1;
+}
+
+/* Стили для контейнера с фоном внутри */
+.background-snow {
+    width: 540px;
+    height: 338px;
+    border-radius: 8px 0px 0px 0px;
+    background-image: url('icons/Featured.png'); 
+    background-position: center;
+    opacity: 1; 
+}
+
+/* Стили для правого контейнера */
+.right-container {
+    width: 580px;
+    height: 292px;
+    padding: 30px 0px 0px 0px;
+    gap: 24px;
+    opacity: 1;
+    margin-left: 70px
+}
+
+.section1 {
+    width: 520px;
+    height: 21px;
+    gap: 0px;
+    opacity: 1; 
+    color: #8A53FF;
+    display: flex;
+    align-items: center; 
+}
+
+.section1 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    margin: 0; 
+    margin-bottom: 20px;
+}
+
+.section2 {
+    width: 520px;
+    height: 36px;
+    gap: 0px;
+    opacity: 1;
+    color: #434343;
+    display: flex;
+    align-items: center; 
+}
+
+.section2 p {
+    font-family: Changa One;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    margin: 0; 
+}
+
+.section3 {
+    width: 520px;
+    height: 99px;
+    gap: 0px;
+    opacity: 1; 
+    color: #434343;
+    display: flex;
+    align-items: flex-start; 
+    
+}
+
+.section3 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    margin: 0; 
+    margin-top: 10px; 
+}
+
+.button-container {
+    width: 143.77px;
+    height: 36px;
+    gap: 0px;
+    opacity: 1; 
+    display: flex;
+    align-items: center; 
+    margin-top: 30px; 
+}
+
+.button-image {
+    width: 36px;
+    height: 36px;
+}
+
+.button-text {
+    width: 95.77px;
+    height: 36px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px; 
+    text-align: center; 
+    color: #8A53FF;
+    padding: 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
