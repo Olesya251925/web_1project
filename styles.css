@@ -57,9 +57,8 @@
 
 @font-face {
     font-family: "Black Signature PERSONAL USE ONLY";
-    src:  url('./fonts/BlackSignaturePersonalUseOnly.otf') format('opentype');
+    src:  url('./fonts/BlackSignaturePersonalUseOnly.otf');
 }
-
 
 /* Стили для слова "Talking" */
 .talking {
@@ -560,6 +559,7 @@ color: #8A53FF;
     padding: 24px 119px 70px 119px;
     gap: 48px;
     opacity: 1;
+    margin-bottom: 0px;
 }
 
 /* заголовок */
@@ -675,4 +675,226 @@ color: #8A53FF;
     font-weight: 400;
     line-height: 18.75px;
     text-align: center;
+}
+
+.fourth_container {
+
+    width: 1440px;
+    height: 901.18px;
+    top: 1843px;
+    gap: 0px;
+    opacity: 0px;
+    background-image: url('icons/Share.png');
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.people_back {
+    width: 620px;
+    height: 758px;
+    top: 1917.03px;
+    left: 391.5px;
+    padding: 20px 0px 0px 0px;
+    gap: 30px;
+    opacity: 1;
+}
+
+.one {
+    width: 617px;
+    height: 76px;
+    gap: 15px;
+    opacity: 1;
+    margin-top: -20px; 
+    margin-bottom: 40px;
+    align-items: center;
+    margin-top: 20px;
+  
+}
+
+.two {
+    width: 560px;
+    height: 600px;
+    padding: 28px 30px 28px 30px;
+    gap: 17px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 1;
+    background: #FFFFFF;
+    margin-top: -20px;
+   
+}
+
+/* Первый подконтейнер */
+.sub-container1 {
+    width: 617px;
+    height: 21px;
+    gap: 0px;
+    opacity: 1;
+    color: #8A53FF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+/* Второй подконтейнер */
+.sub-container2 {
+    width: 617px;
+    height: 40px;
+    gap: 0px;
+    opacity: 1; 
+    color: #434343;
+    font-family: 'Changa One', sans-serif;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+}
+
+.sub1_con {
+    width: 557px;
+    height: 110px;
+    gap: 6px;
+    opacity: 1; 
+    margin-bottom: 30px;
+}
+
+/* полочки */
+.sub2_con {
+    width: 557px;
+    height: 420px;
+    gap: 10px;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.txt_container{
+    width: 215px;
+    height: 20px;
+    padding: 13.5px 9.35px 13.5px 9.52px;
+    gap: 0px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 1;
+    margin-top: 15px;
+    background: #8A53FF;  
+    margin-top: -10px;
+}
+
+.submit_btn {
+    width: 203.12px;
+    height: 19px;
+    opacity: 1;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #FFFFFF;
+    background: none;
+    border: none; 
+    padding: 0; 
+    cursor: pointer; 
+    border-radius: 20x;
+}
+
+/* Первый подконтейнер */
+.share {
+    width: 557px;
+    height: 36px;
+    font-family: 'Changa One', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343; 
+    background: none; 
+    padding: 5px;
+}
+
+/* Второй подконтейнер */
+.suggest {
+    width: 557px;
+    height: 68px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #576074; 
+    background: none;
+    padding: 5px; 
+}
+
+.destination_name{
+    width: 533px; 
+    height: 56px; 
+    padding: 0px 12px; 
+    gap: 0;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px solid #0000003B; 
+    opacity: 1; 
+    margin-bottom: 20px;
+}
+
+.destination_name2 {
+    width: 533px; 
+    height: auto;
+    padding: 16px 0px; 
+    gap: 8px;
+    opacity: 1; 
+    display: flex;
+    align-items: center;
+}
+
+.input-field {
+    width: 501px; 
+    height: 24px;
+    border: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    text-align: left;
+    color: #00000099; 
+    background: none; 
+}
+
+.iconn {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+}
+
+.iconn_back {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+    background-image: url('icons/Arrow.png');
+}
+
+.name {
+    width: 557px;
+    height: 102px;
+    gap: 3px;
+    opacity: 1;   
+}
+
+.name2 {
+    width: 535px;
+    height: 70px;
+    gap: 8px;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: left;
+    color: #00000099;
+    border: 1px solid #0000003B; 
+    display: flex;
+    padding: 0px 12px; 
 }
