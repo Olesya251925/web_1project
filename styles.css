@@ -1,5 +1,4 @@
-/* Стили для первого контейнера, который будет содержать все остальные */
-.main-container {
+.main_block {
     width: 1440px;
     height: 3572.29px;
     top: -430px;
@@ -8,8 +7,7 @@
     opacity: 0px;
 }
 
-/* Стили для внешнего контейнера */
-.outer-container {
+.cap {
     height: 90px;
     padding: 2px 0px; 
     gap: 10px;
@@ -20,18 +18,15 @@
     justify-content: center; 
 }
 
-/* Стили для внутреннего контейнера */
-.inner-container {
+.header_with_text {
     width: 1202px;
     height: 64px;
-    gap: 0;
     display: flex;
     justify-content: space-between;
     align-items: center; 
 }
 
-/* Стили для нового контейнера внутри внутреннего контейнера */
-.text-container {
+.text_talking_and_travel {
     width: 100px;
     height: 64px;
     display: flex;
@@ -39,20 +34,9 @@
     position: relative; 
 }
 
-/* Контейнер для кнопок и вертикальной линии */
-.button-wrapper-container {
+.button_home_story_gallery_contactUs_search_account {
     display: flex;
     align-items: center;
-}
-
-/* Стили для текста */
-.text-item {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF; 
-    font-size: 14px; 
 }
 
 @font-face {
@@ -60,12 +44,10 @@
     src:  url('./fonts/BlackSignaturePersonalUseOnly.otf');
 }
 
-/* Стили для слова "Talking" */
-.talking {
+.talking_text {
     width: 42.39px;
     height: 28.26px;
     left: 3.14px;
-    gap: 0px;
     opacity: 1; 
     font-family: 'Black Signature PERSONAL USE ONLY'; 
     font-size: 15.7px;
@@ -76,44 +58,28 @@
     color: #3E3E3E;
 }
 
-/* Стили для слова "Travel" */
-.travel {
+.travel_text {
     width: 76.15px;
     height: 28.26px;
     top: 21.79px;
-    gap: 0px;
     opacity: 0px;
     font-family: Changa One;
     font-size: 26.69px;
     font-weight: 400;
     line-height: 28.26px;
     text-align: center;  
-    color: #8A53FF;  
+    color: #8A53FF; 
 }
 
-/* Стили для кнопок контейнера */
-.button-container {
-    width: 457px;
-    height: 24px;
-    gap: 18px;
-    opacity: 1px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-}
-
-/* Стили для обертки кнопок */
-.button-wrapper {
+.button_home_story_gallery_contactUs {
     width: 359px;
     height: 19px;
-   
     opacity: 1; 
     display: flex;
     justify-content: space-between;
 }
 
-/* Общие стили для кнопок */
-.button {
+.buttonOne {
     height: 19px;
     display: flex;
     align-items: center;
@@ -127,23 +93,19 @@
     opacity: 1; 
 }
 
-.home {
+.home_txt {
     width: 34.54px;
-height: 14.92px;
-top: 1.96px;
-left: -0px;
-gap: 0px;
-opacity: 0px;
-font-family: Roboto;
-font-size: 12.56px;
-font-weight: 400;
-line-height: 14.72px;
-text-align: center;
-color: #8A53FF;
-
+    height: 14.92px;
+    top: 1.96px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #8A53FF;
 }
 
-.story {
+.story_txt {
     width: 29.05px;
     height: 14.92px;
     top: 1.96px;
@@ -158,50 +120,41 @@ color: #8A53FF;
     color: #495367;
 }
 
-.gallery {
+.gallery_txt {
     width: 39.25px;
     height: 14.92px;
     top: 1.96px;
     left: 149.16px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto;
-    font-size: 12.56px;
+    font-size: 13px;
     font-weight: 400;
     line-height: 14.72px;
     text-align: center;
     color: #495367;
 }
 
-.contact-us {
+.contact-us_txt {
     width: 68.07px;
     height: 14.92px;
     top: 1.96px;
     left: 213.77px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto;
     font-size: 12.56px;
     font-weight: 400;
-    line-height: 14.72px;
+    line-height: 15px;
     text-align: center;
     color: #495367;
     margin-right: 10px;
     margin-left: -20px;
 }
 
-/* Стили для вертикальной линии */
 .vertical-line {
     width: 0px;
     height: 18.53px;
-    gap: 0px;
-    border: 0.79px 0px 0px 0px;
-    opacity: 0px;
-    angle: -90 deg;
+    border: 4px 0px 0px 0px;
     border: 0.79px solid #EEEEEE
 }
 
-/* Стили для иконки поиска */
 .search-button {
     width: 20px;
     height: 20px;
@@ -217,7 +170,6 @@ color: #8A53FF;
     margin-left: 10px; 
 }
 
-/* Стили для иконки аккаунта */
 .account-button {
     width: 24px;
     height: 24px;
@@ -227,19 +179,26 @@ color: #8A53FF;
     opacity: 0px;
 }
 
-/* Стили для второго контейнера - главный */
+.button-container {
+    width: 457px;
+    height: 24px;
+    gap: 18px;
+    opacity: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
+}
+
 .second-container {
     width: 1440px;
     height: 580px;
     gap: 0px;
     background: linear-gradient(90deg, #FFFFFF -0.92%, rgba(255, 255, 255, 0) 75.6%);
     position: relative; 
-    opacity: 0px;
     display: flex;
-   
 }
 
-/* Стили для фона с изображением */
 .background-image {
     width: 100%;
     height: 100%;
@@ -249,39 +208,30 @@ color: #8A53FF;
     background-repeat: no-repeat;
 }
 
-/* Стили для нового фиксированного контейнера */
-.fixed-container {
+.all_text_and_button {
     width: 765px; 
     height: 500px; 
     padding: 40px 120px 40px 140px;
     gap: 34px;
     position: absolute; 
-    opacity: 0px;
-    top: 0; 
-    left: 0; 
-
 }
 
-/* Стили для внутреннего контейнера - текст на фото */
-.inner-fixed-container {
+.text_lets_talk {
     width: 505px;
     height: 252px; 
     gap: 12px;
-    opacity: 0px;
+
 }
 
-/* Стили для первого текстового контейнера */
-.text-section {
+.text_section {
     width: 505px;
     height: 252px;
     gap: 12px;
     display: flex;
     align-items: center; 
-    opacity: 0px;
 }
 
-/* Основной текст - Let's talk */
-.main-text {
+.main_text_style {
     font-family: Changa One;
     font-size: 73px;
     font-weight: 400;
@@ -292,21 +242,9 @@ color: #8A53FF;
     margin-top: 150px; 
 } 
 
-/* Стили для второго текстового контейнера */
-.secondary-text-section {   
-    width: 396.46px;
-    height: 57px;
-    gap: 0px;
-    opacity: 0px;
-
-}
-
-/* Дополнительный текст  - Share your... */
-.secondary-text {
+.text_share_you {
     width: 505px;
     height: 72px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto;
     font-size: 22px;
     font-weight: 400;
@@ -316,15 +254,13 @@ color: #8A53FF;
     margin-top: 50px;
 }
 
-/* Выделенный текст */
-.highlight {
+.highlight_style {
     font-size: inherit; 
     font-weight: inherit; 
     color: #000000; 
 }
 
-/* Стили для второго текстового контейнера */
-.secondary-text-section {
+.secondary-text-section_shareYou {
     width: 505px;
     height: 72px;
     gap: 0;
@@ -332,19 +268,16 @@ color: #8A53FF;
     align-items: center; 
 }
 
-/* Общий контейнер - где кнопки и текст  */
-.third-container {
+.block_button_and_watch {
     display: flex;
     flex-direction: row;
     gap: 24px;
     width: 359.8px;
     height: 46px;
-    opacity: 0px; 
-    margin-top: 40px; 
+    margin-top: 40px;
 }
 
-/* Второй контейнер с кнопкой */
-.story-container {
+.story_button_block {
     width: 165.17px;
     height: 46px;
     background: #8A53FF; 
@@ -356,7 +289,7 @@ color: #8A53FF;
     border-radius: 8px; 
 }
 
-.story-button {
+.story_button {
     width: 146.12px;
     height: 19px;
     font-family: Roboto;
@@ -369,51 +302,34 @@ color: #8A53FF;
     border: none;
 }
 
-/* Третий контейнер с кнопкой и текстом  - play/watch */
-.action-container {
+.action_block {
     display: flex;
-    gap: 0;
     width: 170.63px;
     height: 36px;
-    padding: 0;
     opacity: 1; 
 }
 
-/* Контейнер для кнопки с изображением */
-.image-button {
+.image_button_play{
     width: 36px;
     height: 36px;
     align-items: center; 
     justify-content: center; 
-    
     margin-right: 10px; 
 }
 
-/* Кнопка с изображением  - play */
-.image-button img {
-    width: 36px;
-    height: 36px;
-}
-
-/* Контейнер с текстом Watch highlights */
-.text1-container {
+.block_watch_highlights {
     width: 170.63px;
     height: 36px;
-    padding: 0px;
-    gap: 0px;
-    opacity: 0px;
     display: flex;
     align-items: center;
     justify-content: center; 
 }
 
-.watch-text {
+.watch_text {
    width: 124.63px;
     height: 36px;
     top: 5px;
     left: 235.17px;
-    gap: 0px;
-    opacity: 0px;
     font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
@@ -426,23 +342,11 @@ color: #8A53FF;
     width: 1160px;
     height: 552px;
     padding: 107px 140px 107px 140px;
-    gap: 0px;
-    opacity: 0px;
     background: #FFFFFF;  
     display: flex; 
 }
 
-/* Стили для блока с фоном */
-.sec2_blok {
-    width: 540px;
-    height: 338px;
-    padding: 0px;
-    gap: 10px;
-    opacity: 1;
-}
-
-/* Стили для контейнера с фоном внутри */
-.background-snow {
+.background_snow {
     width: 540px;
     height: 338px;
     border-radius: 8px 0px 0px 0px;
@@ -451,7 +355,6 @@ color: #8A53FF;
     opacity: 1; 
 }
 
-/* Стили для правого контейнера */
 .right-container {
     width: 580px;
     height: 292px;
@@ -522,7 +425,7 @@ color: #8A53FF;
     margin-top: 10px; 
 }
 
-.button-container {
+.button-container_watch_now_play {
     width: 143.77px;
     height: 36px;
     gap: 0px;
@@ -532,12 +435,12 @@ color: #8A53FF;
     margin-top: 30px; 
 }
 
-.button-image {
+.button-image_play{
     width: 36px;
     height: 36px;
 }
 
-.button-text {
+.button-text_watch_now {
     width: 95.77px;
     height: 36px;
     font-family: Roboto;
@@ -552,7 +455,6 @@ color: #8A53FF;
     justify-content: center; 
 }
 
-/* третий блок */
 .third_block {
     width: 1200px;
     height: 621px;
@@ -562,8 +464,7 @@ color: #8A53FF;
     margin-bottom: 0px;
 }
 
-/* заголовок */
-.top_container {
+.join_and_discover_container {
     width: 1202px;
     height: auto; 
     gap: 8px;
@@ -571,16 +472,15 @@ color: #8A53FF;
     margin-bottom: 80px;
 }
 
-.main1 {
+.main1_join_our {
     width: 1202px;
     height: auto;
-    gap: 0;
     opacity: 1; 
     text-align: center;
     color: #8A53FF;
 }
 
-.main1 p {
+.main1_join_our p {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
@@ -589,16 +489,15 @@ color: #8A53FF;
     margin: 0;
 }
 
-.main2 {
+.main2_discover_the_world {
     width: 1202px;
     height: 40px;
-    gap: 0;
     opacity: 1; 
     text-align: center;
     color: #434343;
 }
 
-.main2 p {
+.main2_discover_the_world p {
     font-family: Changa One;
     font-size: 39px;
     font-weight: 400;
@@ -606,12 +505,9 @@ color: #8A53FF;
     margin: 0;
 }
 
-.new_section {
+.photo_and_country_section {
     width: 1202px;
     height: 430px;
-    gap: 0px;
-    opacity: 0px;
-    
     opacity: 1;
     display: flex; 
 }
@@ -700,7 +596,7 @@ color: #8A53FF;
     opacity: 1;
 }
 
-.one {
+.lets_build_and_join_our {
     width: 617px;
     height: 76px;
     gap: 15px;
@@ -709,10 +605,9 @@ color: #8A53FF;
     margin-bottom: 40px;
     align-items: center;
     margin-top: 20px;
-  
 }
 
-.two {
+.title_and_shelves {
     width: 560px;
     height: 600px;
     padding: 28px 30px 28px 30px;
@@ -721,14 +616,11 @@ color: #8A53FF;
     opacity: 1;
     background: #FFFFFF;
     margin-top: -20px;
-   
 }
 
-/* Первый подконтейнер */
-.sub-container1 {
+.lets_build_block {
     width: 617px;
     height: 21px;
-    gap: 0px;
     opacity: 1;
     color: #8A53FF;
     font-family: Roboto;
@@ -739,11 +631,9 @@ color: #8A53FF;
     text-align: center;
 }
 
-/* Второй подконтейнер */
-.sub-container2 {
+.join_our_block {
     width: 617px;
     height: 40px;
-    gap: 0px;
     opacity: 1; 
     color: #434343;
     font-family: 'Changa One', sans-serif;
@@ -753,7 +643,7 @@ color: #8A53FF;
     text-align: center;
 }
 
-.sub1_con {
+.share_and_suggest_txt {
     width: 557px;
     height: 110px;
     gap: 6px;
@@ -761,8 +651,7 @@ color: #8A53FF;
     margin-bottom: 30px;
 }
 
-/* полочки */
-.sub2_con {
+.shelves {
     width: 557px;
     height: 420px;
     gap: 10px;
@@ -770,7 +659,7 @@ color: #8A53FF;
     margin-bottom: 5px;
 }
 
-.txt_container{
+.submit_container{
     width: 215px;
     height: 20px;
     padding: 13.5px 9.35px 13.5px 9.52px;
@@ -794,13 +683,11 @@ color: #8A53FF;
     color: #FFFFFF;
     background: none;
     border: none; 
-    padding: 0; 
     cursor: pointer; 
     border-radius: 20x;
 }
 
-/* Первый подконтейнер */
-.share {
+.share_style {
     width: 557px;
     height: 36px;
     font-family: 'Changa One', sans-serif;
@@ -813,8 +700,7 @@ color: #8A53FF;
     padding: 5px;
 }
 
-/* Второй подконтейнер */
-.suggest {
+.suggest_style {
     width: 557px;
     height: 68px;
     font-family: 'Roboto', sans-serif;
@@ -827,7 +713,7 @@ color: #8A53FF;
     padding: 5px; 
 }
 
-.destination_name{
+.all_shalves {
     width: 533px; 
     height: 56px; 
     padding: 0px 12px; 
@@ -899,7 +785,7 @@ color: #8A53FF;
     padding: 0px 12px; 
 }
 
-.fifth_container {
+.fifth_block {
     width: 1200px;
     height: 748.11px;
     padding: 83px 120px 83px 120px;
@@ -907,9 +793,10 @@ color: #8A53FF;
     opacity: 1;
     display:flex;
     flex-direction: column;
+    position: relative;
 }
 
-.inner_container_1 {
+.catch_and_resent {
     width: 1200px;
     height: 76px;
     gap: 15px;
@@ -917,48 +804,42 @@ color: #8A53FF;
     display:flex;
 }
 
-.inner_container_2 {
+.general_under_sections {
     width: 1200px;
     height: 476.11px;
-    gap: 0px;
     opacity: 1;
     display:flex;
 }
 
-.title1 {
+.title_catch {
     width: 1200px;
     height: 21px;
-    gap: 0px;
     opacity: 1;
-}
-
-.catch {
     font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21.09px;
     letter-spacing: 0.06em;
     text-align: center;
-    color:  #8A53FF;
+    color: #8A53FF;
+    
 }
 
-.title2 {
+.title_recentStory {
     width: 1200px;
     height: 40px;
-    gap: 0px;
     opacity: 1;
     font-family: Changa One;
     font-size: 39px;
-    font-weight: 400;
     line-height: 40px;
     text-align: center;
     color: #434343;
+    font-weight: 100;
 }
 
 .first_section {
     width: 600px;
     height: 100%; 
-    gap: 10px;
+    gap: 0px;
     opacity: 1;
     display: flex;
     flex-direction: column; 
@@ -970,51 +851,36 @@ color: #8A53FF;
     height: 100%; 
     gap: 10px;
     opacity: 1;
+    
 }
 
-.fr_s2 {
+.photo_blueSkyAndHill {
     width: 560px;
-    height: 378.11px; 
+    height: 355px; 
     gap: 0px;
     opacity: 1;
     display: flex;
     background-image: url('icons/Big.png');
-
+    border-radius: 8px 8px 0px 0px;
+    margin-bottom: 0;
 }
 
-.big_back {
+.titleZermatt_and_descriptionMarvel {
     width: 560px;
-    height: 358.11px;
-    gap: 0px;
-    border-radius: 8px 8px px 0px;
-    opacity: 1;
-   
-}
-
-.fr_s3 {
-    width: 550px;
     height: 118px;
-    gap: 28px;
+    gap: 0px;
     opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
     background: #F9F9F9;
+    margin-top: 0;
 }
 
-.inn-container {
-    width: 440px;
-    height: 90px; 
-    gap: 2px;
-    opacity: 1;
-    margin-left: -70px;
-}
-
-.tex-container1 {
+.title_Zermatt {
     width: 435.13px;
     height: 36px;
-    gap: 0px;
     opacity: 1;
     font-family: 'Changa One', sans-serif;
     font-size: 24px;
@@ -1024,10 +890,9 @@ color: #8A53FF;
     color: #434343;
 }
 
-.tex-container2 {
+.text_MarvelOnTheBeaty {
     width: 435.13px;
     height: 52px;
-    gap: 0px;
     opacity: 1;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -1035,9 +900,10 @@ color: #8A53FF;
     line-height: 26px;
     text-align: left;
     color: #576074;
+    display: flex;
 }
 
-.image2_2 {
+.play_icon {
     width: 48.87px;
     height: 48px;
     gap: 0px;
@@ -1046,7 +912,7 @@ color: #8A53FF;
     background: none;
 }
 
-.box {
+.box_imageAndTitleAndDescription {
     width: 571px;
     height: 128px;
     padding: 10px 11px;
@@ -1056,19 +922,18 @@ color: #8A53FF;
     margin-bottom: 10px;
     background: #F9F9F9;
     display: flex; 
-    align-items: flex-start; 
     gap: 10px; 
 }
 
-.image-container {
+.icons_opposite_the_header {
     width: 200px;
     height: 128px;
-    border-radius: 4px 0px 0px 0px;
+    border-radius: 4px 4px 4px 4px;
     background-size: cover;
     background-position: center;
 }
 
-.txt-contr {
+.description_and_title {
     width: 358px;
     height: 128px; 
     padding: 8px 0px 0px 0px;
@@ -1077,7 +942,7 @@ color: #8A53FF;
     gap: 6px;
 }
 
-.txt1 {
+.txt_title {
     width: 358px;
     height: 36px;
     font-family: 'Changa One', sans-serif;
@@ -1086,12 +951,10 @@ color: #8A53FF;
     line-height: 36px;
     text-align: left;
     color: #434343;
-    gap: 0px;
     opacity: 1;
-
 }
 
-.txt2 {
+.txt_description{
     width: 358px;
     height: 78px;
     font-family: 'Roboto', sans-serif;
@@ -1100,10 +963,60 @@ color: #8A53FF;
     line-height: 26px;
     text-align: left;
     color: #576074;
-    gap: 0px;
     opacity: 1;
 }
 
-.violet {
+.violet_text {
     color: #8A53FF;
+}
+
+.bottom_cap {
+    width: 1200px; 
+    height: 80px; 
+    padding: 32px 120px; 
+    opacity: 1;
+    background: #FFFFFF;
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    margin-left: 0; 
+    display: flex;
+} 
+
+.talking_travel_cap {
+    width: 920px;
+    height: 16px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #939EB4;
+    margin-top: 40px;
+}
+
+.item_block {
+    width: 300px;
+    height: 16px;
+    gap: 0px;
+    opacity: 1;
+    display: flex;
+    margin-top: 40px;
+}
+
+.item_all {
+    width: 75px;
+    height: 16px;
+    top: 32px;
+    left: 1245.12px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: center;
+    color: #939EB4;
 }
