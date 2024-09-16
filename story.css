@@ -1,0 +1,415 @@
+a {
+    text-decoration: none; 
+}
+
+.cap {
+    width: 1440;
+    height: 90px;
+    padding: 2px 119px 2px 119px;
+    gap: 10px;
+    background: #FFFFFF;
+    display: flex;
+    box-shadow: 0px 4px 16px 0px #0000000A;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.header_with_text {
+    width: 1202px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.text_talking_and_travel {
+    width: 100px;
+    height: 64px;
+    display: flex;
+    flex-direction: column; 
+    position: relative; 
+}
+
+.button_home_story_gallery_contactUs_search_account {
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: "Black Signature PERSONAL USE ONLY";
+    src:  url('./fonts/BlackSignaturePersonalUseOnly.otf');
+}
+
+.talking_text {
+    width: 42.39px;
+    height: 28.26px;
+    left: 3.14px;
+    opacity: 1; 
+    font-family: 'Black Signature PERSONAL USE ONLY'; 
+    font-size: 15.7px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28.26px;
+    text-align: center;
+    color: #3E3E3E;
+}
+
+.travel_text {
+    width: 76.15px;
+    height: 28.26px;
+    top: 21.79px;
+    opacity: 0px;
+    font-family: Changa One;
+    font-size: 26.69px;
+    font-weight: 400;
+    line-height: 28.26px;
+    text-align: center;  
+    color: #8A53FF; 
+}
+
+.button_home_story_gallery_contactUs {
+    width: 359px;
+    height: 19px;
+    opacity: 1; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonOne {
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    background: transparent; 
+    opacity: 1; 
+}
+
+.home_txt {
+    width: 34.54px;
+    height: 14.92px;
+    top: 1.96px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #495367;
+}
+
+.story_txt {
+    width: 29.05px;
+    height: 14.92px;
+    top: 1.96px;
+    left: 77.72px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #8A53FF;
+}
+
+.gallery_txt {
+    width: 39.25px;
+    height: 14.92px;
+    top: 1.96px;
+    left: 149.16px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #495367;
+}
+
+.contact-us_txt {
+    width: 68.07px;
+    height: 14.92px;
+    top: 1.96px;
+    left: 213.77px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #495367;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+.vertical-line {
+    width: 0px;
+    height: 18.53px;
+    border: 4px 0px 0px 0px;
+    border: 0.79px solid #EEEEEE
+}
+
+.search-button {
+    width: 20px;
+    height: 20px;
+    background-image: url('icons/search.png');
+    background-size: cover; 
+    border: none; 
+    top: 2px;
+    left: 395px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 20px;
+    margin-left: 10px; 
+}
+
+.account-button {
+    width: 24px;
+    height: 24px;
+    background-image: url('icons/account.png');
+    background-size: cover; 
+    order: none; 
+    opacity: 0px;
+}
+
+.common_block_for_everyone {
+    width: 895px;
+    height: 2334.55px;
+    padding: 46px 258px 46px 258px;
+    gap: 35px;
+    opacity: 1;
+    background: #FFFFFF;
+}
+
+.one_block_title_wih_image {
+    width: 911px;
+    height: 635px;
+    gap: 20px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_popular_hello_photo {
+    width: 911.64px;
+    height: 75px;
+    gap: 0px;
+    opacity: 1px;
+}   
+
+.popular_hello_block {
+    width: 721.18px;
+    height: 75px;
+    gap: 0px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.block_popular_destinations {
+    width: 721px;
+    height: 21px;
+    gap: 0px;
+    opacity: 1;
+    display: flex;
+}
+
+.txt_popular_destinations  {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #8A53FF;
+    margin: 0;
+}
+
+.block_hello_switzerland {
+    width: 721.18px;
+    height: 54px;
+    gap: 0px;
+    opacity: 1;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.txt_hello_switzerland {
+    font-family: Changa One;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 54px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    color: #434343;
+}
+
+.photo_and_name {
+    width: 191px;
+    height: 35px;
+    gap: 10px;
+    opacity: 1;
+    display: flex;
+    margin-top: 20px;
+}
+
+.photo_avatar {
+    width: 35px;
+    height: 35px;
+    gap: 0px;
+    opacity: 1;
+}
+
+.name_author {
+    width: 190px;
+    height: 35px;
+    gap: 10px;
+    opacity: 1;
+}
+
+.txt_name_block {
+    width: 135px;
+    height: 19px;
+    gap: 0px;
+    opacity: 1;
+    display: flex;
+}
+
+.name_txt {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #495367;
+}
+
+.block_author {
+    width: 145.47px;
+    height: 16px;
+    gap: 0px;
+    opacity: 1px;    
+}
+
+.author_txt {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #A2A7B1;
+}
+
+.background_article {
+    width: 911.64px;
+    height: 540px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 1;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.background_article img {
+    width: 100%;
+    height: 100%;
+    top: 95px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 1;
+    background: linear-gradient(0deg, #C4C4C4, #C4C4C4),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06));
+}
+
+.txt_matterhon {
+    width: 891.27px;
+    height: 92px;
+    top: 150px;
+    left: 10.19px;
+    gap: 0px;
+    opacity: 0px; 
+    font-family: Black Signature PERSONAL USE ONLY;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 92.4px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.photo_ellipse_and_polygon {
+    position: absolute; 
+    width: 105px; 
+    height: 105px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellips {
+    width: 106px;
+    height: 107px;
+    background-image: url('icons/ellipse.png');
+    background: rgba(138, 83, 255, 0.6);
+    border-radius: 50%; 
+    position: absolute; 
+    top: -10px;
+    left: 5px;
+    gap: 0px;
+    opacity: 1;
+}
+
+.polygon {
+    width: 52.03px;
+    height: 51.56px;
+    position: absolute; 
+    top: 26%; 
+    left: 42%; 
+    background-image: url('icons/polygon.png');
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.block_our_swiss_location {
+    width: 912px;
+    height: 124px;
+    gap: 10px;
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.txt_our_swiss {
+    width: 911.64px;
+    height: 36px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Changa One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #434343; 
+}
+
+.txt_location{
+    width: 911.64px;
+    height: 78px;
+    gap: 0px;
+    opacity: 1;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #434343; 
+}
+
