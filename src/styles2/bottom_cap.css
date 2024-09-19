@@ -1,0 +1,43 @@
+.block_cap {
+    width: 10000;
+    height: 80px;
+    padding: 32px 120px;
+    gap: 0px;
+    opacity: 1;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;          
+    background-color: #FFFFFF; 
+}
+
+.bottom_cap {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    width: 100%;                   
+    height: 100%;                
+}
+
+.talking_travel_cap {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #939EB4;
+    margin: 0;         
+}
+
+.item_block {
+    display: flex;
+    gap: 20px;              
+}
+
+.item_all {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: center;
+    color: #939EB4;
+}

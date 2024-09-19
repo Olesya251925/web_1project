@@ -1,0 +1,132 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.block_photo_and_txt_OneOfTheBest {
+    max-width: 1000px;
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    opacity: 1;
+    justify-content: space-between; 
+}
+
+.blok_photo_mountains {
+    width: 456px;
+    height: 481px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.winter_mountains_photo {
+    width: 220.41px;
+    height: 481px;
+    border-radius: 8px 0 0 0;
+}
+
+.two_photos_mountains {
+    width: 221px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.mountains_photo {
+    width: 221px;
+    height: 262px;
+    border-radius: 8px 0 0 0;
+    margin-bottom: -20px;
+}
+
+.sunset_photo {
+    width: 221px;
+    height: 202px;
+    border-radius: 8px 0 0 0;
+}
+
+.text_opposite_mountains {
+    width: 456px;
+    height: 450px;
+    padding: 36px 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.text_ontOfTheBest_quotes {
+    width: 490px;
+    margin-left: 0;
+}
+
+.quote_mark {
+    width: 34.62px;
+    height: 26px;
+    font-size: 50px;
+    font-family: Changa One;
+    color: #8A53FF;
+}
+
+.text_one_of_the_best {
+    width: 395px;
+    font-family: Changa One;
+    font-size: 42px;
+    font-style: italic;
+    line-height: 47px;
+    color: #434343;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+.text_as_one {
+    width: 421px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #434343;
+}
+
+.paragraph1 {
+    margin-bottom: 20px;
+}
+
+.view_full_gallery_button {
+    width: 165px;
+    height: 20px;
+    padding: 13.5px 9.52px;
+    background: #8A53FF;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.button_text {
+    width: 146px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text_the_advantage {
+    width: 1000px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #434343;
+    margin: 20px auto; 
+    display: flex;
+}

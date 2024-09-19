@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "Black Signature PERSONAL USE ONLY";
+    src: url('./fonts/BlackSignaturePersonalUseOnly.otf');
+}
+
+.cap {
+    width: 100%;
+    height: 90px;
+    padding: 2px 119px 2px 119px;
+    gap: 10px;
+    opacity: 0px;
+    align-items: center; 
+    justify-content: space-between;
+    display: flex;
+}
+
+.header_with_text {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.text_talking_and_travel {
+    width: 100px;
+    height: 64px;
+    display: flex;
+    flex-direction: column; 
+    position: relative; 
+}
+
+.button_home_story_gallery_contactUs_search_account {
+    display: flex;
+    align-items: center;
+}
+
+.talking_text {
+    width: 42.39px;
+    height: 28.26px;
+    left: 3.14px;
+    opacity: 1; 
+    font-family: 'Black Signature PERSONAL USE ONLY'; 
+    font-size: 15.7px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28.26px;
+    text-align: center;
+    color: #3E3E3E;
+    position: absolute;
+}
+
+.travel_text {
+    width: 76.15px;
+    height: 28.26px;
+    top: 21.79px;
+    opacity: 0px;
+    font-family: Changa One;
+    font-size: 26.69px;
+    font-weight: 400;
+    line-height: 28.26px;
+    text-align: center;  
+    color: #8A53FF; 
+    position: absolute;
+}
+
+.button_home_story_gallery_contactUs {
+    width: 359px;
+    height: 19px;
+    opacity: 1; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonOne {
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+    background: transparent; 
+    opacity: 1; 
+}
+
+.home_txt {
+    width: 34.54px;
+    height: 14.92px;
+    top: 1.96px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #495367;
+}
+
+.story_txt {
+    width: 29.05px;
+    height: 14.92px;
+    top: 1.96px;
+    left: 77.72px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #8A53FF;
+}
+
+.gallery_txt {
+    width: 39.25px;
+    height: 14.92px;
+    top: 1.96px;
+    left: 149.16px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 14.72px;
+    text-align: center;
+    color: #495367;
+}
+
+.contact-us_txt {
+    width: 68.07px;
+    height: 14.92px;
+    top: 1.96px;
+    left: 213.77px;
+    font-family: Roboto;
+    font-size: 12.56px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #495367;
+    margin-right: 10px;
+    margin-left: -20px;
+}
+
+.vertical-line {
+    width: 0px;
+    height: 18.53px;
+    border-left: 0.79px solid #EEEEEE; /* Вертикальная линия */
+}
+
+.search-button {
+    width: 20px;
+    height: 20px;
+    background-image: url('../icons/search.png');
+    background-size: cover; 
+    border: none; 
+    opacity: 0px;
+    margin-right: 20px;
+    margin-left: 10px; 
+}
+
+.account-button {
+    width: 24px;
+    height: 24px;
+    background-image: url('../icons/account.png');
+    background-size: cover; 
+    border: none; 
+    opacity: 0px;
+    margin-right: 10px;
+}

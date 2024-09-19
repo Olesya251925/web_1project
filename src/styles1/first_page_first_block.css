@@ -1,0 +1,126 @@
+.second-container {
+    width: 100%;
+    height: 580px;
+    gap: 0px;
+    background: linear-gradient(90deg, #FFFFFF -0.92%, rgba(255, 255, 255, 0) 75.6%);
+    position: relative; 
+    display: flex;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/rockAndSea.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.all_text_and_button {
+    height: 500px; 
+    padding: 40px 120px 40px 140px;
+    gap: 34px;
+    position: absolute; 
+}
+
+.text_lets_talk {
+    height: 252px; 
+    gap: 12px;
+}
+
+.text_section {
+    width: 505px;
+    height: 252px;
+    gap: 12px;
+    display: flex;
+    align-items: center; 
+}
+
+.main_text_style {
+    font-family: Changa One;
+    font-size: 73px;
+    font-weight: 400;
+    line-height: 84px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #8A53FF; 
+    margin-top: 150px; 
+} 
+
+.text_share_you {
+    height: 72px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #434343;
+    margin-top: 50px;
+}
+
+.highlight_style {
+    color: #000000; 
+}
+
+.secondary-text-section_shareYou {
+    width: 505px;
+    height: 72px;
+    gap: 0;
+    display: flex;
+    align-items: center; 
+}
+
+.block_button_and_watch {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    width: 359.8px;
+    height: 46px;
+    margin-top: 40px;
+}
+
+.story_button_block {
+    width: 165px;
+    height: 46px;
+    background: #8A53FF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 1; 
+    border-radius: 8px; 
+}
+
+.story_button {
+    width: 146px;
+    height: 19px;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF; 
+    background: none;
+    border: none;
+}
+
+.action_block {
+    display: flex;
+    height: 36px;
+    opacity: 1; 
+}
+
+.image_button_play{
+    height: 36px;
+    margin-right: 10px; 
+}
+
+.block_watch_highlights {
+    height: 36px;
+}
+
+.watch_text {
+    height: 36px;
+    top: 5px;
+    left: 235.17px;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #434343;
+}
