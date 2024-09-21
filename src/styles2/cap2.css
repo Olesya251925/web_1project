@@ -1,6 +1,19 @@
+a {
+    text-decoration: none; 
+}
+
 @font-face {
-    font-family: "Black Signature PERSONAL USE ONLY";
-    src: url('./fonts/BlackSignaturePersonalUseOnly.otf');
+    font-family: "Black Signature";
+    src:  url('../fonts/BlackSignaturePersonalUseOnly.otf');
+}
+
+.main_block {
+    width: 1447;
+    height: 3572px;
+    gap: 0px;
+    opacity: 0px;
+    border: 2px solid #000000;
+  
 }
 
 .cap {
@@ -8,14 +21,16 @@
     height: 90px;
     padding: 2px 119px 2px 119px;
     gap: 10px;
-    opacity: 0px;
-    align-items: center; 
-    justify-content: space-between;
+    background: #FFFFFF;
     display: flex;
+    align-items: center; 
+    justify-content: center; 
+    position: relative;
+    right: -110px; 
 }
 
 .header_with_text {
-    width: 100%;
+    width: 1202px;
     height: 64px;
     display: flex;
     justify-content: space-between;
@@ -40,14 +55,13 @@
     height: 28.26px;
     left: 3.14px;
     opacity: 1; 
-    font-family: 'Black Signature PERSONAL USE ONLY'; 
+    font-family: 'Black Signature'; 
     font-size: 15.7px;
     font-style: italic;
     font-weight: 400;
     line-height: 28.26px;
     text-align: center;
     color: #3E3E3E;
-    position: absolute;
 }
 
 .travel_text {
@@ -61,7 +75,6 @@
     line-height: 28.26px;
     text-align: center;  
     color: #8A53FF; 
-    position: absolute;
 }
 
 .button_home_story_gallery_contactUs {
@@ -110,7 +123,7 @@
     font-weight: 400;
     line-height: 14.72px;
     text-align: center;
-    color: #8A53FF;
+    color: #8A53FF; 
 }
 
 .gallery_txt {
@@ -144,7 +157,8 @@
 .vertical-line {
     width: 0px;
     height: 18.53px;
-    border-left: 0.79px solid #EEEEEE; /* Вертикальная линия */
+    border: 4px 0px 0px 0px;
+    border: 0.79px solid #EEEEEE
 }
 
 .search-button {
@@ -153,6 +167,10 @@
     background-image: url('../icons/search.png');
     background-size: cover; 
     border: none; 
+    top: 2px;
+    left: 395px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
     opacity: 0px;
     margin-right: 20px;
     margin-left: 10px; 
@@ -163,7 +181,17 @@
     height: 24px;
     background-image: url('../icons/account.png');
     background-size: cover; 
-    border: none; 
+    order: none; 
     opacity: 0px;
-    margin-right: 10px;
+}
+
+.button-container {
+    width: 457px;
+    height: 24px;
+    gap: 18px;
+    opacity: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    
 }
