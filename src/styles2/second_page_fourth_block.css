@@ -1,14 +1,14 @@
 .block_with_fields {
     width: 1440px;
     height: 901.18px;
+    margin-left: -255px;
     gap: 0px;
     opacity: 1;
     background-image: url('../image/Share.png');
     display: flex; 
     align-items: center; 
     justify-content: center; 
-    position: relative;
-    margin: 0 auto;
+
 }
 
 .people_back {

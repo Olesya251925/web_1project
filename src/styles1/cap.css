@@ -9,11 +9,12 @@ a {
 
 .main_block {
     width: 1440px;
-    height: 3572.29px;
+    height: auto;
     top: -430px;
     left: -1008px;
     gap: 0px;
     opacity: 0px;
+    overflow-x: hidden; 
 }
 
 .cap {

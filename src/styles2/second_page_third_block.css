@@ -1,10 +1,12 @@
 .block_hightlights {
-    max-width: 1000px;
-    width: 90%;
+    width: 912px;
+    height: 432px;
     margin: 0 auto;
     gap: 15px;
     opacity: 1;
     margin-bottom: 40px;
+    gap: 15px;
+    opacity: 0px;
 }
 
 .txt_hightlights {
@@ -20,11 +22,13 @@
 }
 
 .block_photo_images {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 960px;
+    height: 390px;
+    display: flex;
+    flex-wrap: nowrap;
     gap: 15px;
-    justify-content: center;
-    width: 100%;
+    opacity: 1;
+    justify-content: space-between;;
 }
 
 .photo_column_hightl {
@@ -47,10 +51,9 @@
     margin-top: 20px;
 }
 
-
 .block_disclaimer {
-    max-width: 1000px;
-    width: 90%;
+    width: 912px;
+    height: auto;
     margin: 0 auto;
     padding: 19px 29px;
     border-radius: 4px 0 0 0;

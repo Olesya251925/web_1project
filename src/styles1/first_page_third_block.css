@@ -5,6 +5,7 @@
     gap: 48px;
     opacity: 1;
     margin-bottom: 0px;
+    box-sizing: border-box;
 }
 
 .join_and_discover_container {

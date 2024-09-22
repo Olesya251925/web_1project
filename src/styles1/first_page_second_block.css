@@ -4,6 +4,7 @@
     padding: 107px 140px 107px 140px;
     background: #FFFFFF;  
     display: flex; 
+    box-sizing: border-box;
 }
 
 .background_snow {
