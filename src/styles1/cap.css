@@ -100,8 +100,8 @@ a {
 }
 
 .home_txt {
-    width: 34.54px;
-    height: 14.92px;
+    width: 35px;
+    height: 15px;
     top: 1.96px;
     font-family: Roboto;
     font-size: 12.56px;
@@ -112,7 +112,7 @@ a {
 }
 
 .story_txt {
-    width: 29.05px;
+    width: 29px;
     height: 14.92px;
     top: 1.96px;
     left: 77.72px;
@@ -154,6 +154,15 @@ a {
     margin-left: -20px;
 }
 
+.home_txt:hover,
+.story_txt:hover,
+.gallery_txt:hover,
+.contact-us_txt:hover {
+    transform: scale(1.1); 
+    cursor: pointer;  
+    transition: transform 0.2s ease-in-out; 
+}
+
 .vertical-line {
     width: 0px;
     height: 18.53px;
@@ -183,6 +192,13 @@ a {
     background-size: cover; 
     order: none; 
     opacity: 0px;
+}
+
+.search-button:hover,
+.account-button:hover {
+    transform: scale(1.1); 
+    cursor: pointer;      
+    transition: transform 0.2s ease-in-out; 
 }
 
 .button-container {

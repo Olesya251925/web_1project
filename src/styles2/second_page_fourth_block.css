@@ -84,16 +84,22 @@
     margin-bottom: 5px;
 }
 
-.submit_container{
+.submit_container {
     width: 215px;
     height: 20px;
     padding: 13.5px 9.35px 13.5px 9.52px;
     gap: 0px;
-    border-radius: 4px 4px 4px 4px;
+    border-radius: 4px;
     opacity: 1;
     margin-top: 15px;
     background: #8A53FF;  
     margin-top: -10px;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.submit_container:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
 }
 
 .submit_btn {
@@ -109,7 +115,7 @@
     background: none;
     border: none; 
     cursor: pointer; 
-    border-radius: 20x;
+    border-radius: 20px; 
 }
 
 .share_style {
@@ -147,7 +153,6 @@
     border: 1px solid #0000003B; 
     opacity: 1; 
     margin-bottom: 20px;
-
     position: relative;
 }
 
@@ -159,7 +164,7 @@
     opacity: 1; 
     display: flex;
     align-items: center;
-     position: relative;
+    position: relative;
 }
 
 .input-field {
@@ -212,7 +217,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    letter-spacing: 0.15000000596046448px;
+    letter-spacing: 0.15px;
     text-align: left;
     color: #00000099;
     border: 1px solid #0000003B; 
@@ -230,9 +235,11 @@
     width: 200px;
     z-index: 100; 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-left: 350px;
 }
 
-.all_shalves:hover .dropdown {
+.destination_name2:hover .dropdown,
+.iconn_back:hover + .dropdown {
     display: block; 
 }
 

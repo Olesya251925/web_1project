@@ -120,6 +120,13 @@
     opacity: 0px;
     border: none;
     background: none;
+    font-style: italic; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.play_icon:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
 }
 
 .box_imageAndTitleAndDescription {

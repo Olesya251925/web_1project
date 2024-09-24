@@ -99,6 +99,13 @@
 .button-image_play{
     width: 36px;
     height: 36px;
+    font-style: italic; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.button-image_play:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
 }
 
 .button-text_watch_now {

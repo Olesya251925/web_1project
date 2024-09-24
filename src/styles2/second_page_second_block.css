@@ -100,6 +100,12 @@
     align-items: center;
     justify-content: center;
     margin-top: 35px;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.view_full_gallery_button:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
 }
 
 .button_text {

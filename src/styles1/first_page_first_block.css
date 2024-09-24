@@ -88,6 +88,12 @@
     border-radius: 4px 0px 0px 0px;
     opacity: 1; 
     border-radius: 8px; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.story_button_block:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
 }
 
 .story_button {
@@ -107,13 +113,22 @@
     opacity: 1; 
 }
 
-.image_button_play{
+.image_button_play {
     height: 36px;
     margin-right: 10px; 
+    font-style: italic; 
+    transition: transform 0.2s ease-in-out;
+}
+
+.image_button_play:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
 }
 
 .block_watch_highlights {
     height: 36px;
+    position: relative;
+    top: -7px;
 }
 
 .watch_text {
