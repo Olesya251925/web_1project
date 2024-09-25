@@ -29,14 +29,12 @@
     gap: 0px;
     opacity: 1;
     display: flex;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .item_all {
     width: 75px;
     height: 16px;
-    top: 32px;
-    left: 1245.12px;
     gap: 0px;
     opacity: 1;
     font-family: Roboto;
@@ -45,4 +43,11 @@
     line-height: 16.41px;
     text-align: center;
     color: #939EB4;
+    text-decoration: none; 
+    cursor: pointer; 
+    transition: color 0.3s ease; 
+}
+
+.item_all:hover {
+    color: #000; 
 }

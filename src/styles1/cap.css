@@ -45,6 +45,20 @@ a {
     position: relative; 
 }
 
+.logo-link {
+    display: inline-block; 
+    text-decoration: none; 
+}
+
+.logo-link .text_talking_and_travel {
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.logo-link:hover .text_talking_and_travel {
+    transform: scale(1.05); 
+}
+
 .button_home_story_gallery_contactUs_search_account {
     display: flex;
     align-items: center;
