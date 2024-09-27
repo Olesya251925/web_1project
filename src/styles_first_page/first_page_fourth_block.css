@@ -106,7 +106,6 @@
     width: 203.12px;
     height: 19px;
     opacity: 1;
-    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
     line-height: 18.75px;
@@ -134,7 +133,6 @@
 .suggest_style {
     width: 557px;
     height: 68px;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 34px;
@@ -167,7 +165,7 @@
     position: relative;
 }
 
-.input-field {
+.input_field {
     width: 501px; 
     height: 24px;
     border: none;

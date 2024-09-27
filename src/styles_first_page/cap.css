@@ -2,11 +2,6 @@ a {
     text-decoration: none; 
 }
 
-@font-face {
-    font-family: "Black Signature";
-    src:  url('../fonts/BlackSignaturePersonalUseOnly.otf');
-}
-
 .main_block {
     width: 1440px;
     height: auto;
@@ -45,17 +40,17 @@ a {
     position: relative; 
 }
 
-.logo-link {
+.logo_link {
     display: inline-block; 
     text-decoration: none; 
 }
 
-.logo-link .text_talking_and_travel {
+.logo_link .text_talking_and_travel {
     cursor: pointer; 
     transition: transform 0.2s ease-in-out; 
 }
 
-.logo-link:hover .text_talking_and_travel {
+.logo_link:hover .text_talking_and_travel {
     transform: scale(1.05); 
 }
 
@@ -99,7 +94,7 @@ a {
     justify-content: space-between;
 }
 
-.buttonOne {
+.button_one {
     height: 19px;
     display: flex;
     align-items: center;
@@ -153,7 +148,7 @@ a {
     color: #495367;
 }
 
-.contact-us_txt {
+.contact_us_txt {
     width: 68.07px;
     height: 14.92px;
     top: 1.96px;
@@ -171,20 +166,20 @@ a {
 .home_txt:hover,
 .story_txt:hover,
 .gallery_txt:hover,
-.contact-us_txt:hover {
+.contact_us_txt:hover {
     transform: scale(1.1); 
     cursor: pointer;  
     transition: transform 0.2s ease-in-out; 
 }
 
-.vertical-line {
+.vertical_line {
     width: 0px;
     height: 18.53px;
     border: 4px 0px 0px 0px;
     border: 0.79px solid #EEEEEE
 }
 
-.search-button {
+.search_button {
     width: 20px;
     height: 20px;
     background-image: url('../icons/search.png');
@@ -199,7 +194,7 @@ a {
     margin-left: 10px; 
 }
 
-.account-button {
+.account_button {
     width: 24px;
     height: 24px;
     background-image: url('../icons/account.png');
@@ -208,8 +203,8 @@ a {
     opacity: 0px;
 }
 
-.search-button:hover,
-.account-button:hover {
+.search_button:hover,
+.account_button:hover {
     transform: scale(1.1); 
     cursor: pointer;      
     transition: transform 0.2s ease-in-out; 

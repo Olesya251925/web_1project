@@ -16,7 +16,7 @@
     opacity: 1; 
 }
 
-.right-container {
+.rightt_container {
     width: 580px;
     height: 292px;
     padding: 30px 0px 0px 0px;
@@ -86,7 +86,7 @@
     margin-top: 10px; 
 }
 
-.button-container_watch_now_play {
+.button_container_watch_now_play {
     width: 143.77px;
     height: 36px;
     gap: 0px;
@@ -96,19 +96,19 @@
     margin-top: 30px; 
 }
 
-.button-image_play{
+.button_image_play{
     width: 36px;
     height: 36px;
     font-style: italic; 
     transition: transform 0.2s ease-in-out;
 }
 
-.button-image_play:hover {
+.button_image_play:hover {
     transform: scale(1.1); 
     cursor: pointer; 
 }
 
-.button-text_watch_now {
+.button_text_watch_now {
     width: 95.77px;
     height: 36px;
     font-family: Roboto;

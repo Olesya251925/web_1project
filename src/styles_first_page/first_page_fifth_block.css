@@ -67,7 +67,7 @@
     
 }
 
-.photo_blueSkyAndHill {
+.photo_blue_sky_and_hill {
     width: 560px;
     height: 355px; 
     gap: 0px;
@@ -100,11 +100,10 @@
     color: #434343;
 }
 
-.text_MarvelOnTheBeaty {
+.text_marvel_on_the_beaty {
     width: 435.13px;
     height: 52px;
     opacity: 1;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -129,7 +128,7 @@
     cursor: pointer; 
 }
 
-.box_imageAndTitleAndDescription {
+.box_image_and_title_and_description {
     width: 571px;
     height: 128px;
     padding: 10px 11px;
@@ -174,7 +173,6 @@
 .txt_description{
     width: 358px;
     height: 78px;
-    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
