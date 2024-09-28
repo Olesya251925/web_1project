@@ -3,7 +3,7 @@ a {
 }
 
 .cap {
-    width: 90%;
+    width: 100%;
     height: 80px;
     padding: 32px 120px;
     gap: 0px;
@@ -12,6 +12,7 @@ a {
     justify-content: space-between; 
     align-items: center;          
     background-color: #FFFFFF; 
+    box-sizing: border-box;
 }
 
 .header_with_text {
@@ -215,8 +216,7 @@ a {
 .main_block {
     width: 100%;
     height: auto;
-    top: -430px;
-    left: -1008px;
+    left: 0;
     gap: 0px;
     opacity: 1;
     overflow-x: hidden; 
