@@ -4,13 +4,16 @@
     padding: 32px 120px; 
     opacity: 1;
     background: #FFFFFF;
-    bottom: 0; 
     left: 0; 
     display: flex;
     justify-content: space-between; 
     align-items: center;          
-    z-index: 1000; 
-} 
+    position: absolute; 
+    transform: translateY(901.18px);
+    overflow-x: hidden; 
+    box-sizing: border-box;
+}
+
 
 .talking_travel_cap {
     width: 920px;
