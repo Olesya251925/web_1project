@@ -220,4 +220,5 @@ a {
     gap: 0px;
     opacity: 1;
     overflow-x: hidden; 
+    box-sizing: border-box;
 }
