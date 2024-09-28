@@ -1,21 +1,16 @@
-@font-face {
-    font-family: "Black Signature";
-    src: url('../fonts/BlackSignaturePersonalUseOnly.otf');
-}
-
 .common_block_for_everyone {
-    width: 100%;
-    height: 3300px;
+    width: 80%;
+    height: auto; 
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     gap: 35px;
     opacity: 1;
     background: #FFFFFF;
 }
 
 .one_block_title_wih_image {
-    width: 1000px;
-    height: 635px;
+    width: 100%;
+    height: auto; 
     gap: 20px;
     opacity: 1;
     display: flex;
@@ -27,7 +22,7 @@
 .block_popular_hello_photo {
     display: flex;
     width: 100%;
-    height: 75px;
+    height: 75px; 
     gap: 0px;
     opacity: 1;
     padding: 0;
@@ -37,8 +32,8 @@
 .popular_hello_block {
     display: flex;
     flex-direction: column;
-    width: 721px;
-    height: 75px;
+    width: 100%;
+    height: 75px; 
     gap: 0px;
     opacity: 1;
     padding: 0;
@@ -47,7 +42,7 @@
 
 .block_popular_destinations {
     width: 100%;
-    height: 21px;
+    height: auto; 
     gap: 0px;
     opacity: 1;
     padding: 0;
@@ -66,8 +61,8 @@
 }
 
 .block_hello_switzerland {
-    width: 721.18px;
-    height: 54px;
+    width: 100%;
+    height: auto; 
     gap: 0px;
     opacity: 1;
     display: flex;
@@ -89,7 +84,7 @@
 
 .photo_and_name {
     display: flex;
-    width: 191px;
+    width: auto; 
     height: 35px;
     gap: 10px;
     opacity: 1;
@@ -107,7 +102,7 @@
 }
 
 .name_author {
-    width: 190px;
+    width: auto; 
     height: 35px;
     gap: 10px;
     opacity: 1;
@@ -116,7 +111,7 @@
 }
 
 .txt_name_block {
-    width: 135px;
+    width: auto; 
     height: 19px;
     gap: 0px;
     opacity: 1;
@@ -136,7 +131,7 @@
 }
 
 .block_author {
-    width: 145.47px;
+    width: auto; 
     height: 16px;
     gap: 0px;
     opacity: 1;
@@ -156,8 +151,8 @@
 }
 
 .background_article {
-    width: 1000px;
-    height: 540px;
+    width: 100%; 
+    height: auto; 
     gap: 0px;
     border-radius: 8px 0px 0px 0px;
     opacity: 1;
@@ -178,24 +173,24 @@
     border-radius: 8px 0px 0px 0px;
     opacity: 1;
     background: linear-gradient(0deg, #C4C4C4, #C4C4C4),
-    linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06));
+                linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06));
 }
 
 .txt_matterhon {
     width: 100%;
-    height: 92px;
-    top: 150px;
+    height: auto; 
+    top: 150px; 
     left: 10.19px;
     gap: 0px;
-    opacity: 0px; 
-    font-family: Black Signature;
-    font-size: 70px;
+    opacity: 1; 
+    font-family: "Black Signature";
+    font-size: 5vw; 
     font-style: italic;
     font-weight: 400;
-    line-height: 92.4px;
+    line-height: 8vw; 
     text-align: center;
     color: #FFFFFF;
-    position: absolute;
+    position: absolute; 
 }
 
 .photo_ellipse_and_polygon {
@@ -232,8 +227,8 @@
 }
 
 .block_our_swiss_location {
-    width: 1000px;
-    height: 124px;
+    width: 100%; 
+    height: auto; 
     gap: 10px;
     opacity: 1;
     margin-top: 40px;
@@ -243,8 +238,8 @@
 }
 
 .txt_our_swiss {
-    width: 911.64px;
-    height: 36px;
+    width: auto; 
+    height: auto; 
     gap: 0px;
     opacity: 1;
     font-family: Changa One;
@@ -254,8 +249,8 @@
 }
 
 .txt_location {
-    width: 970px;
-    height: 78px;
+    width: auto; 
+    height: auto; 
     gap: 0px;
     opacity: 1;
     font-family: Roboto;

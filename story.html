@@ -176,15 +176,13 @@
                                 
                                 <div class="all_shalves">
                                     <div class="destination_name2">
-                                        <input type="text" class="input_field" value="Country of Destination" readonly>
-                                        <label class="iconn_back"></label> 
-                                        <div class="dropdown">
-                                            <ul>
-                                                <li>Russia</li>
-                                                <li>Türkiye</li>
-                                                <li>Germany</li>
-                                            </ul>
-                                        </div>
+                                        <select name="destination_name2"  class="input_field">
+                                            <option value="" selected disabled>Country of Destination</option>
+                                            <option value="russia">Russia</option>
+                                            <option value="turkey">Turkey</option>
+                                            <option value="germany">Germany</option>
+                                        </select>
+                                        <label class="iconn_back"></label>
                                     </div>
                                 </div>
                                 
@@ -194,19 +192,18 @@
                                         <div class="iconn"></div>
                                     </div>
                                 </div>
-                                 <div class="all_shalves">
+                                <div class="all_shalves">
                                     <div class="destination_name2">
-                                        <input type="text" class="input_field" value="Shooting category">
-                                        <label class="iconn_back"></label> 
-                                        <div class="dropdown">
-                                            <ul>
-                                                <li>City photography</li>
-                                                <li>Landscape photography</li>
-                                                <li>Portrait photography</li>
-                                            </ul>
-                                        </div>
+                                        <select name="shooting_category" class="input_field">
+                                            <option value="" selected disabled>Shooting category</option>
+                                            <option value="city_photography">City photography</option>
+                                            <option value="landscape_photography">Landscape photography</option>
+                                            <option value="portrait_photography">Portrait photography</option>
+                                        </select>
+                                        <label class="iconn_back"></label>
                                     </div>
                                 </div>
+                                
                                  <div class="name">
                                     <div class="name2">
                                         <input type="text" class="input_field" value="Describe what kind of photos you want to focus on">
@@ -236,7 +233,6 @@
                     </div>   
                 </div>  
             </div>     
-            </div>
         </div>
     </div>
 </body>
