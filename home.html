@@ -90,56 +90,46 @@
             </div>
         </div>
 
-        <div class="third_block">
-            <div class="join_and_discover_container ">
-                <div class="main1_join_our ">
-                    <p>JOIN OUR ADVENTURES</p>
-                </div>
-                <div class="main2_discover_the_world">
-                    <p>Discover the world with us</p>
-                </div>
+        <div class="discover">
+            <div class="join_and_discover_container">
+              <h4>JOIN OUR ADVENTURES</h4>
+              <p>Discover the world with us</p>
             </div>
+      
             <div class="photo_and_country_section">
-                <div class="left_container">
-                    <div class="l1_container">
-                        <div class="image_container">
-                            <img src="src/image/Iceland.png" alt="Iceland" class="image">
-                            <div class="Iceland"></div>
-                                <div class="text1">Iceland</div>
-                                <div class="text2">Discover</div>
-                            </div>
-                        </div>
-                    <div class="l2_container">
-                        <div class="image_container">
-                            <img src="src/image/Italy.png" alt="Italy" class="image">
-                            <div class="Italy"></div>
-                                <div class="text1">Italy</div>
-                                <div class="text2">Discover</div>
-                            </div>
-                        </div>
-                    </div>
-                
-                <div class="right_container">
-                    <div class="r1_container">
-                        <div class="image_container">
-                            <img src="src/image/Dubai.png" alt="Dubai" class="image">
-                            <div class="Dubai"></div>
-                                <div class="text1">Dubai</div>
-                                <div class="text2">Discover</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="r2_container">
-                        <div class="image_container">
-                            <img src="src/image/Patagonia.png" alt="Patagonia" class="image">
-                            <div class="Patagonia"></div>
-                                <div class="text1">Patagonia</div>
-                                <div class="text2">Discover</div>
-                            </div>
-                        </div>
-                    </div>
+              <div class="image_container">
+                <img src="src/image/Iceland.png" class="photo" />
+                <div class="ontainer_country_and_discover">
+                  <p class="country_name">Iceland</p>
+                  <p class="text2">Discover</p>
                 </div>
-               
+              </div>
+      
+              <div class="image_container">
+                <img src="src/image/Italy.png" class="photo" />
+                <div class="ontainer_country_and_discover">
+                  <p class="country_name">Italy</p>
+                  <p class="text2">Discover</p>
+                </div>
+              </div>
+      
+              <div class="image_container">
+                <img src="src/image/Dubai.png" class="photo" />
+                <div class="container_country_and_discover">
+                  <p class="country_name">Dubai</p>
+                  <p class="text2">Discover</p>
+                </div>
+              </div>
+      
+              <div class="image_container">
+                <img src="src/image/Patagonia.png" class="photo" />
+                <div class="ontainer_country_and_discover">
+                  <p class="country_name">Patagonia</p>
+                  <p class="text2">Discover</p>
+                </div>
+              </div>
+            </div>
+          </div>
                
                 <div class="fourth_container">
                     <div class="people_back">
@@ -170,15 +160,13 @@
                                 
                                 <div class="all_shalves">
                                     <div class="destination_name2">
-                                        <input type="text" class="input_field" value="Country of Destination" readonly>
-                                        <label class="iconn_back"></label> 
-                                        <div class="dropdown">
-                                            <ul>
-                                                <li>Russia</li>
-                                                <li>Türkiye</li>
-                                                <li>Germany</li>
-                                            </ul>
-                                        </div>
+                                        <select name="destination_name2"  class="input_field">
+                                            <option value="" selected disabled>Country of Destination</option>
+                                            <option value="russia">Russia</option>
+                                            <option value="turkey">Turkey</option>
+                                            <option value="germany">Germany</option>
+                                        </select>
+                                        <label class="iconn_back"></label>
                                     </div>
                                 </div>
                                 
@@ -188,19 +176,18 @@
                                         <div class="iconn"></div>
                                     </div>
                                 </div>
-                                 <div class="all_shalves">
+                                <div class="all_shalves">
                                     <div class="destination_name2">
-                                        <input type="text" class="input_field" value="Shooting category">
-                                        <label class="iconn_back"></label> 
-                                        <div class="dropdown">
-                                            <ul>
-                                                <li>City photography</li>
-                                                <li>Landscape photography</li>
-                                                <li>Portrait photography</li>
-                                            </ul>
-                                        </div>
+                                        <select name="shooting_category" class="input_field">
+                                            <option value="" selected disabled>Shooting category</option>
+                                            <option value="city_photography">City photography</option>
+                                            <option value="landscape_photography">Landscape photography</option>
+                                            <option value="portrait_photography">Portrait photography</option>
+                                        </select>
+                                        <label class="iconn_back"></label>
                                     </div>
                                 </div>
+                                
                                  <div class="name">
                                     <div class="name2">
                                         <input type="text" class="input_field" value="Describe what kind of photos you want to focus on">
@@ -213,7 +200,6 @@
                                 </div>
                              </div>
                         </div>
-                        
                     </div>
                 </div>
 
